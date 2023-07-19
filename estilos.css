@@ -1,0 +1,76 @@
+.body{
+    margin: 0px;
+}
+/*para quitar el borde por defecto*/
+.menu{
+    text-align: center;
+    background-color:#0A9087;
+}
+.menu li{
+    display: inline-block;
+    padding: 20px;
+
+}
+.menu a{
+padding: 20px;    
+text-align: center;
+color: white;
+text-decoration: none;
+
+}
+.menu a:hover{
+    background: #3BBFAF;
+}
+
+.gris{
+    color: aliceblue;
+    background-color: #333333;
+    text-align: center;
+    padding: 60px;  
+    overflow: hidden;
+
+}
+/* evita que la etiqueta y el contenedor colasen, el margin top de h1 se colapsa con el margen del contenedor div*/
+.hierva{
+    background-color: aquamarine;
+    background: url(../EjMaqueta/pastoverde.jpg);
+    height: 250px;
+    width: auto;
+}
+.col_dos{
+    width: 1024px;
+    margin:auto;
+    
+}
+.col_dos .col_izq{
+width: 610px;
+display: inline-block;
+vertical-align: top;
+}
+
+.col_dos .col_der{
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+}
+    
+.tres_col{
+    background: rgb(87, 209, 239);
+}
+
+.col{
+    display: inline-block;
+    text-align: center;
+   vertical-align: top;
+}
+
+
+/* Estilos pagina contacto*/
+
+.contactos{
+    padding: 20px;    
+   
+    color: rgb(143, 22, 22);
+    text-decoration: none;
+    display: flexbox ;   
+}
